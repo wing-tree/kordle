@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/playFragment">
+
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.wing.tree.bruni.kordle.play.view.PlayFragment"
+        android:label="PlayFragment" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.wing.tree.bruni.kordle.result.view.ResultFragment"
+        android:label="ResultFragment" />
+</navigation>
